@@ -1,0 +1,2 @@
+# AutoJudge-Problem-Difficulty-Prediction
+Machine learning system to predict programming problem difficulty (Easy/Medium/Hard) and relative difficulty score using textual descriptions, with a Flask-based web interface and explainable predictions.
