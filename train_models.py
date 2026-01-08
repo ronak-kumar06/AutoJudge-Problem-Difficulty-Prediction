@@ -3,6 +3,9 @@ import math
 import joblib
 import pandas as pd
 import numpy as np
+# import matplotlib.pyplot as plt
+# from sklearn.metrics import ConfusionMatrixDisplay
+
 
 from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline, FeatureUnion
@@ -85,6 +88,13 @@ y_pred_class = clf.predict(X_test)
 
 print("Classification Accuracy:", accuracy_score(y_class_test, y_pred_class))
 
+# from sklearn.metrics import ConfusionMatrixDisplay
+# import matplotlib.pyplot as plt
+
+# ConfusionMatrixDisplay.from_predictions(y_class_test, y_pred_class)
+# plt.title("Confusion Matrix")
+# plt.show()
+
 # -----------------------------
 # Regression model
 # -----------------------------
@@ -111,3 +121,4 @@ joblib.dump(clf, "models/autojudge_classifier.joblib")
 joblib.dump(reg, "models/autojudge_regressor.joblib")
 
 print("Models saved successfully.")
+

@@ -214,7 +214,7 @@ https://youtu.be/zr92Ds8q6Mo
 
 ```
 Name: Ronak Kumar
-Enrollement No: 23113130
+Enrollment No: 23113130
 Department: Civil Engineering (3rd year)
 GitHub: ronak-kumar06
 ```
