@@ -36,6 +36,7 @@ Each data sample contains:
 
 The dataset is provided in JSONL format and already contains labeled difficulty classes and scores.
 No manual labeling was performed.
+
 ## Approach
 
 ### Data Preprocessing
@@ -77,6 +78,7 @@ Ensured consistent text formatting
 -Predicts: Relative difficulty score
 
 - Both models are trained using the same feature pipeline.
+
 ## Evaluation Metrics
 
     1. Classification
@@ -92,6 +94,7 @@ Ensured consistent text formatting
 -Root Mean Squared Error (RMSE)
 
 - Difficulty prediction is inherently subjective; therefore, results are interpreted as relative rather than absolute difficulty.
+
 ## Run Locally
 
 Clone the project
@@ -194,9 +197,10 @@ AutoJudge-Problem-Difficulty-Prediction/
 
 The application uses Flask’s development server for local execution.
 For production deployment, it can be served using a production WSGI server such as Gunicorn, with debug mode disabled, without changing application logic.
-## Demo
 
-Demo video (2–3 minutes) demonstrating the system and predictions.
+## Demo Video Link
+
+https://youtu.be/zr92Ds8q6Mo
 
 
 ## Author
