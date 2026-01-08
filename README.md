@@ -198,6 +198,13 @@ AutoJudge-Problem-Difficulty-Prediction/
 The application uses Flask’s development server for local execution.
 For production deployment, it can be served using a production WSGI server such as Gunicorn, with debug mode disabled, without changing application logic.
 
+## Project Report
+
+The detailed project report (PDF) is available here:
+
+[report/report.pdf](report/report.pdf)
+
+
 ## Demo Video Link
 
 https://youtu.be/zr92Ds8q6Mo
